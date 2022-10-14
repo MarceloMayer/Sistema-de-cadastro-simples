@@ -1,0 +1,74 @@
+
+/*formulario*/
+#form-container{
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.form-check-input:checked{
+    background-color: #6C63FF;
+}
+.form-control:focus{
+    border-color: #6C63FF;
+}
+.btn{
+    background-color: #6C63FF;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#btn-back{
+    display: none;
+}
+.btn:hover{
+    background-color: white;
+    color: #6C63FF;
+    border-color: #6C63FF;
+}
+
+#resposta{
+    font-size: 1.2rem;
+    margin-top: 50px;
+    font-family: Helvetica, sans-serif;
+}
+#containerSex{
+    margin-left: 5px;
+}
+
+
+/*img*/
+#main-img{
+    background-image: url(img/undraw_Certificate_re_yadi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+}
+#imgMobileContainer{
+    display: none;
+}
+@media(max-width: 574px){
+    #img-mobile{
+        background-image: url(img/undraw_Certificate_re_yadi.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        opacity: 60%;
+        margin-top: 20px;
+    }
+    #imgMobileContainer{
+        display: block;
+    }
+    
+}
+
+
+
